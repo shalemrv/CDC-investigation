@@ -61,7 +61,7 @@ Please note that the specific configuration may vary based on your environment, 
 
 ---
 
-This method described for configuring Debezium with RabbitMQ as a sink does not use Apache Kafka in the data flow.
+## This method described for configuring Debezium with RabbitMQ as a sink does not use Apache Kafka in the data flow.
 
 Instead, it bypasses Kafka entirely and directly sends the captured change events to RabbitMQ.
 
